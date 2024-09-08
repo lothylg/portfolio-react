@@ -1,12 +1,29 @@
+import { Link } from "react-router-dom" //this allows you to be able to make a link 
 
+export default function Header() {
 
-export default function Header(){
+    const menu = [
+        { id: 1, label: "About me", href: "/about" },
+        { id: 2, label: "Portfolio", href: "/portfolio" },
+        { id: 3, label: "Resume", href: "/resume" },
+        { id: 4, label: "Contact me", href: "/contact" }
+    ]
 
+    return (
+        <header className='container-fluid m-4'>
+            <div id="headerContainer" className="row col-12">
+                <h3 className='col-3'><Link className="nav-link" to="/">Lothy Gresser</Link></h3>
+                <div id='linkContainer col-8' className='row col-9'>
+                    <ul className="nav justify-content-end">
+                        {menu.map(item => (
+                            <li key={item.id} className="nav-item">
+                                <Link className="nav-link" to={item.href}>{item.label}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-    return(
-        <>
-        
-
-        </>
     )
 }
