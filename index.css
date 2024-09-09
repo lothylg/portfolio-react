@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+    color: #D8D78F;
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.nav-link:hover {
+    color: #FFFFFF; /* Change the color on hover */
+}
+
+.nav-item {
+    color: #D8D78F;
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.nav-item:hover {
+    color: #FFFFFF; /* Change the color on hover */
+}
+
+
+body {
+    background-color: #ADA8B6;
+    max-width: 100%;
+}
+
+#headerContainer {
+    background-color: #23022E;
+    max-width: 100%;
+    padding: 10px;
+}
+
+h3 {
+    color: #495F41;
+}

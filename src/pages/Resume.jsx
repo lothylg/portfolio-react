@@ -3,7 +3,7 @@
 export default function Contact() {
     return (
         <div id="largeContainer" className="m-4">
-            <h2>Resume</h2> <br />
+            <h3>Resume</h3> <br />
             <div>
                 <a href="/assets/resume.pdf" download>Download my resume</a>
             </div>

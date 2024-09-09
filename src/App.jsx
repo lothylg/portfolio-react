@@ -4,6 +4,7 @@ import { Footer, Header, Navigator, Project } from "./components"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { HomePage, Portfolio, Contact, Resume, About } from "./pages"
 
+
 function App() {
 
     
@@ -12,7 +13,7 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<About />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/resume" element={<Resume />} />
@@ -24,6 +25,7 @@ function App() {
 
             <Footer />
         </BrowserRouter>
+
     )
 }
 
