@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+
+import Project from '../components/Project'
 
 export default function Portfolio() {
 
@@ -16,14 +17,9 @@ export default function Portfolio() {
             <h3>Portfolio</h3>
             <div className="col-12 row">
                 {myProjects.map(project => (
-                    <div className="col-6 p-3" key={project.id}>
-                        <Link to={project.link}>
-                            <img className="img-thumbnail" src={project.src} alt={project.alt} />
-                            {/* add id to p so can change color on hover */}
-                            <p id="projName">{project.name}</p>
-                            {/* <Project key={project.name} project={project} /> */}
-                        </Link>
-                    </div>
+                    // sending in myproject as project props into project. Imported at the top.
+                    // added in the key to resolve that error. 
+                    <Project key={project.id} project={project}/>
                 ))}
             </div>
         </div>
