@@ -22,11 +22,13 @@
     color: #FFFFFF; /* Change the color on hover */
 }
 
-
+/* whole page to have the same background color */
 body {
     background-color: #ADA8B6;
     max-width: 100%;
 }
+
+/* making the header alone have a pop of color */
 
 #headerContainer {
     background-color: #23022E;
@@ -34,6 +36,19 @@ body {
     padding: 10px;
 }
 
+/* ensuring all of the header has the same color */
 h3 {
     color: #495F41;
+}
+/* make the project names on portfolio page readable */
+#projName {
+    color: black;
+}
+
+#projName:hover {
+    color: #FFFFFF; /* Change the color on hover */
+}
+/* blue isn't visible on the purple, add bg-color to make it pop. looks terrible but oh well.  */
+#resumeLink {
+    background-color: #495F41;
 }

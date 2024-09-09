@@ -2,6 +2,7 @@ import { Link } from "react-router-dom" //this allows you to be able to make a l
 import { NavLink } from "react-router-dom"; 
 
 export default function Header() {
+    //random id numbers for the key
 
     const menu = [
         { id: 1, label: "About me", href: "/about" },
@@ -9,7 +10,7 @@ export default function Header() {
         { id: 3, label: "Resume", href: "/resume" },
         { id: 4, label: "Contact me", href: "/contact" }
     ]
-
+//future improvements would include styling the parts of the head with less solid color backgrounds
     return (
         <header id="fullHeader" className='container-fluid m-4 col-12'>
             <div id="headerContainer" className="row col-12">

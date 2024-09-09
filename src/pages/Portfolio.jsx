@@ -19,7 +19,8 @@ export default function Portfolio() {
                     <div className="col-6 p-3" key={project.id}>
                         <Link to={project.link}>
                             <img className="img-thumbnail" src={project.src} alt={project.alt} />
-                            <p>{project.name}</p>
+                            {/* add id to p so can change color on hover */}
+                            <p id="projName">{project.name}</p>
                             {/* <Project key={project.name} project={project} /> */}
                         </Link>
                     </div>

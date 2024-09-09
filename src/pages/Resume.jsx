@@ -5,7 +5,7 @@ export default function Contact() {
         <div id="largeContainer" className="m-4">
             <h3>Resume</h3> <br />
             <div>
-                <a href="/assets/resume.pdf" download>Download my resume</a>
+                <a id="resumeLink" href="/assets/resume.pdf" download>Download my resume</a>
             </div>
             <div className="container">
                 
