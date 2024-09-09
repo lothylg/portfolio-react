@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom" //this allows you to be able to make a link 
+import { NavLink } from "react-router-dom"; 
 
 export default function Header() {
 
@@ -17,7 +18,7 @@ export default function Header() {
                     <ul className="nav justify-content-end">
                         {menu.map(item => (
                             <li key={item.id} className="nav-item">
-                                <Link className="nav-link" to={item.href}>{item.label}</Link>
+                                <NavLink className="nav-link" to={item.href}>{item.label}</NavLink>
                             </li>
                         ))}
                     </ul>

@@ -12,8 +12,8 @@ export default function HomePage() {
 
         <div id='infoContainer' className="col-12 row">
             <div className='col-3'></div>
-            <div className="row col-6 justify-content-center mt-5">
-                <img id="mePhoto" className="col-6" src='/assets/avatar.png'></img>
+            <div className="row col-8 justify-content-center mt-5">
+                <img id="mePhoto" className="col-6" src='/assets/lgfront.png'></img>
                 <ul id="meInfo" className='col-6 list-unstyled'>
                     <li key='1' id="fullName">Hi! I am {myName}!</li><br/>
                     <li key='2' id="located">I am a {jobTitle} based in {location}</li><br/>

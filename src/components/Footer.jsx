@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     const icons = [
         { id: "1", link: "https://github.com/lothylg", alt: "github logo", src: '../assets/github.svg' },
-        { id: "2", link: "https://www.linkedin.com/in/lothy-gresser/", alt: 'linkedin logo', src: '../assets/linkedin.svg' }
+        { id: "2", link: "https://www.linkedin.com/in/lothy-gresser/", alt: 'linkedin logo', src: '../assets/linkedin.svg' },
+        { id: "3", link: "https://www.instagram.com/maybeslothie/", alt: 'instagram logo', src: '../assets/instalogo.png' }
     ];
 
     return (
