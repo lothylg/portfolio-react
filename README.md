@@ -9,6 +9,8 @@ This application has tailwind css loaded up, it uses Bootstrap and standard CSS 
 After you clone this app, I recommend doing and npm install, npm run build, and npm run start
 
 ### Links to the deployed app
+Deployed to the web: https://incomparable-froyo-df9c1c.netlify.app/
+Github: https://github.com/lothylg
 
 ### Screenshots of the application
 ![Screen Shot 2024-09-08 at 8 55 47 PM](https://github.com/user-attachments/assets/eccdc572-ffdd-43e3-88d8-46fbb42752d1)
